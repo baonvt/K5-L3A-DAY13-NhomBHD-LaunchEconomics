@@ -2,8 +2,11 @@
 
 import math
 from pathlib import Path
+from statistics import NormalDist
 
 import pandas as pd
+from statsmodels.stats.power import NormalIndPower
+from statsmodels.stats.proportion import proportion_effectsize
 
 GIA_VAO, GIA_RA = 26, 130  # đồng / 1.000 token
 GIA_TOOL = 15
@@ -132,6 +135,48 @@ def bang_do_nhay(runs, reqs, pilot):
         print(f"{phut:6.1f} {tong:15,.0f} {cps:10,.0f} {cps/BASELINE:6.2f}× {hoa_von:9.2f}")
 
 
+def co_mau_hai_ty_le(p1, p2, alpha=0.05, power=0.80):
+    """Cỡ mẫu mỗi nhánh theo công thức hai tỉ lệ, kiểm định hai phía."""
+    tb = (p1 + p2) / 2
+    za = NormalDist().inv_cdf(1 - alpha / 2)
+    zb = NormalDist().inv_cdf(power)
+    tu = za * math.sqrt(2 * tb * (1 - tb)) + zb * math.sqrt(p1 * (1 - p1) + p2 * (1 - p2))
+    return math.ceil((tu / (p2 - p1)) ** 2)
+
+
+def bang_co_mau():
+    n = co_mau_hai_ty_le(0.70, 0.75)
+    icc = 0.02
+    cum = 20
+    de_75 = 1 + (75 - 1) * icc
+    n_tho = math.ceil(n * de_75)
+    n_6 = 859  # cỡ mẫu hiệu dụng mỗi nhánh cho mức chênh 6 điểm do đề cho
+    m = math.ceil(n_6 * (1 - icc) / (cum - n_6 * icc))
+    de = 1 + (m - 1) * icc
+    hieu_dung = cum * m / de
+    power_5 = NormalIndPower().power(abs(proportion_effectsize(0.70, 0.75)), hieu_dung, alpha=0.05)
+    print("\nD1 · Cỡ mẫu mỗi nhánh")
+    print(f"a. Ngẫu nhiên theo yêu cầu: {n:,} yêu cầu.")
+    print(f"b. 75 yêu cầu/người: DE {de_75:.2f}, cần {n_tho:,} yêu cầu, {math.ceil(n_tho/75)} người.")
+    print(f"c. 20 nhân viên: trần hiệu dụng {cum/icc:,.0f}.")
+    print(f"d. 6 depot: trần hiệu dụng {6/icc:,.0f}.")
+    print(f"e. Chênh 6 điểm: cần {m} yêu cầu/người, {cum*m:,} mỗi nhánh, "
+          f"DE {de:.2f}, hiệu dụng {hieu_dung:.2f}. Power ở 5 điểm: {power_5:.3f}.")
+
+
+def bang_chi_so(reqs, pilot):
+    xem = reqs[reqs.duoc_xem_lai.eq(1)]
+    dong = reqs.dong_trong_24h.eq(1) & reqs.mo_lai_trong_7_ngay.eq(0)
+    print("\nE1 · Chỉ số trong đợt chạy thử")
+    for ten, dau_hieu in (
+        ("Đóng trong 24h, không mở lại trong 7 ngày", dong),
+        ("Sửa hoặc bỏ trong số yêu cầu được xem lại", xem.quyet_dinh_xem_lai.isin(["sua", "bo"])),
+        ("Mở lại trong 7 ngày", reqs.mo_lai_trong_7_ngay.eq(1)),
+        ("Mở lại trong phạm vi pilot", pilot.mo_lai_trong_7_ngay.eq(1)),
+    ):
+        print(f"{ten}: {dau_hieu.sum()}/{len(dau_hieu)} = {dau_hieu.mean():.2%}")
+
+
 def main():
     kiem_tra_dap_an_biet_truoc()
     thu_muc = Path(__file__).resolve().parent
@@ -140,6 +185,8 @@ def main():
     pilot = reqs[reqs.loai.isin(LOAI_PILOT)]
     bang_chi_phi(runs, reqs, pilot)
     bang_do_nhay(runs, reqs, pilot)
+    bang_co_mau()
+    bang_chi_so(reqs, pilot)
 
 
 if __name__ == "__main__":

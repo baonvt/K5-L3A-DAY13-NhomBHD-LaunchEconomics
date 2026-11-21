@@ -14,7 +14,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Do người dùng
   </td>
   <td>
-    Chờ patch của Hiệp
+    Do người dùng
   </td>
 </tr>
 <tr>
@@ -24,7 +24,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Hệ thống
   </td>
 </tr>
 <tr>
@@ -34,7 +34,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngữ cảnh
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngữ cảnh
   </td>
 </tr>
 <tr>
@@ -44,7 +44,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Giới hạn hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Giới hạn hệ thống
   </td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngầm
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngầm
   </td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Do người dùng
   </td>
   <td>
-    Chờ patch của Hiệp
+    Do người dùng
   </td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Hệ thống
   </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Hệ thống
   </td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Do người dùng
   </td>
   <td>
-    Chờ patch của Hiệp
+    Do người dùng
   </td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngữ cảnh
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngữ cảnh
   </td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Giới hạn hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Giới hạn hệ thống
   </td>
 </tr>
 <tr>
@@ -124,7 +124,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngầm
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngầm
   </td>
 </tr>
 <tr>
@@ -134,7 +134,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Giới hạn hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Giới hạn hệ thống
   </td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Do người dùng
   </td>
   <td>
-    Chờ patch của Hiệp
+    Do người dùng
   </td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Hệ thống
   </td>
 </tr>
 <tr>
@@ -164,7 +164,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngữ cảnh
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngữ cảnh
   </td>
 </tr>
 <tr>
@@ -174,7 +174,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngầm
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngầm
   </td>
 </tr>
 <tr>
@@ -184,7 +184,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Ngữ cảnh
   </td>
   <td>
-    Chờ patch của Hiệp
+    Ngữ cảnh
   </td>
 </tr>
 <tr>
@@ -194,7 +194,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Giới hạn hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Giới hạn hệ thống
   </td>
 </tr>
 <tr>
@@ -204,7 +204,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
     Hệ thống
   </td>
   <td>
-    Chờ patch của Hiệp
+    Hệ thống
   </td>
 </tr>
 </tbody>
