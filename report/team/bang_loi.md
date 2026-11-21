@@ -11,7 +11,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>1</td>
   <td>Số tài khoản thiếu hai chữ số</td>
   <td>
-    Chờ patch của Duy
+    Do người dùng
   </td>
   <td>
     Chờ patch của Hiệp
@@ -21,7 +21,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>2</td>
   <td>Tra bảng giá thường cho kiện 28 kg</td>
   <td>
-    Chờ patch của Duy
+    Hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -31,7 +31,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>3</td>
   <td>Khách đợi tiền về ngân hàng, hệ thống hoàn về ví</td>
   <td>
-    Chờ patch của Duy
+    Ngữ cảnh
   </td>
   <td>
     Chờ patch của Hiệp
@@ -41,7 +41,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>4</td>
   <td>Thiếu dữ liệu chặng giao ở nước ngoài</td>
   <td>
-    Chờ patch của Duy
+    Giới hạn hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -51,7 +51,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>5</td>
   <td>Đối soát mẫu mới phát hiện hoàn theo giá trước giảm</td>
   <td>
-    Chờ patch của Duy
+    Ngầm
   </td>
   <td>
     Chờ patch của Hiệp
@@ -61,7 +61,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>6</td>
   <td>Khách chọn giao trễ khi hàng bị vỡ</td>
   <td>
-    Chờ patch của Duy
+    Do người dùng
   </td>
   <td>
     Chờ patch của Hiệp
@@ -71,7 +71,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>7</td>
   <td>Sổ cái trả 503 nhưng thông báo đã hoàn</td>
   <td>
-    Chờ patch của Duy
+    Hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -81,7 +81,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>8</td>
   <td>Trích dẫn điều khoản 7.2 không tồn tại</td>
   <td>
-    Chờ patch của Duy
+    Hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -91,7 +91,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>9</td>
   <td>Nhập mã sàn thay cho mã vận đơn</td>
   <td>
-    Chờ patch của Duy
+    Do người dùng
   </td>
   <td>
     Chờ patch của Hiệp
@@ -101,7 +101,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>10</td>
   <td>Giao trễ do bão trong khi ứng dụng vẫn hẹn 24 giờ</td>
   <td>
-    Chờ patch của Duy
+    Ngữ cảnh
   </td>
   <td>
     Chờ patch của Hiệp
@@ -111,7 +111,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>11</td>
   <td>Trợ lý chỉ đọc văn bản, khách gửi tin thoại</td>
   <td>
-    Chờ patch của Duy
+    Giới hạn hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -121,7 +121,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>12</td>
   <td>Chi phí tại D05 tăng gấp ba suốt ba tuần mới được phát hiện</td>
   <td>
-    Chờ patch của Duy
+    Ngầm
   </td>
   <td>
     Chờ patch của Hiệp
@@ -131,7 +131,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>13</td>
   <td>Yêu cầu hoàn phí bảo hiểm ngoài phạm vi</td>
   <td>
-    Chờ patch của Duy
+    Giới hạn hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -141,7 +141,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>14</td>
   <td>Khách bấm nhầm xác nhận đã nhận tiền</td>
   <td>
-    Chờ patch của Duy
+    Do người dùng
   </td>
   <td>
     Chờ patch của Hiệp
@@ -151,7 +151,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>15</td>
   <td>Nhân viên bắt lỗi hoàn 100% thay vì 50%</td>
   <td>
-    Chờ patch của Duy
+    Hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -161,7 +161,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>16</td>
   <td>Thông báo đúng quy trình nhưng gửi lúc 2:14 sáng</td>
   <td>
-    Chờ patch của Duy
+    Ngữ cảnh
   </td>
   <td>
     Chờ patch của Hiệp
@@ -171,7 +171,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>17</td>
   <td>Bảng giá cũ làm lệch tiền 212 đơn, không ai mở lại</td>
   <td>
-    Chờ patch của Duy
+    Ngầm
   </td>
   <td>
     Chờ patch của Hiệp
@@ -181,7 +181,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>18</td>
   <td>Tính đúng 15.000 đ nhưng tin nhắn thiếu cách tính</td>
   <td>
-    Chờ patch của Duy
+    Ngữ cảnh
   </td>
   <td>
     Chờ patch của Hiệp
@@ -191,7 +191,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>19</td>
   <td>Đơn 14 tháng vượt giới hạn tra cứu 12 tháng</td>
   <td>
-    Chờ patch của Duy
+    Giới hạn hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -201,7 +201,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
   <td>20</td>
   <td>Lệnh gửi lại thiếu khóa chống trùng, tiền hoàn hai lần</td>
   <td>
-    Chờ patch của Duy
+    Hệ thống
   </td>
   <td>
     Chờ patch của Hiệp
@@ -212,14 +212,12 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
 
 Hai cột trong bản ghép của hai patch trùng 20/20 ca (100%). Mức trùng này tính trên các nhãn cùng nguồn AI. Nếu đổi nhãn trước khi commit, nhóm cập nhật số ca trùng và ghi lý do cho từng ca khác nhau.
 
-## Bảng khắc phục cho 5 ca, mỗi loại một ca
+## Khắc phục 5 ca, mỗi loại một ca
 
-Cách phát hiện phải đo được (event, ngưỡng, tần suất). Người phụ trách là một vai trò, không ghi "cả đội".
-
-| Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Ai phụ trách |
+| Ca | Loại lỗi theo tình huống trong đề | Phát hiện và ngưỡng đề xuất | Khắc phục | Người phụ trách |
 | --: | --- | --- | --- | --- |
-| ... | Do người dùng | ... | ... | ... |
-| ... | Hệ thống | ... | ... | ... |
-| ... | Ngữ cảnh | ... | ... | ... |
-| ... | Giới hạn hệ thống | ... | ... | ... |
-| ... | Ngầm | ... | ... | ... |
+| 1 | Do người dùng | Đếm số tài khoản sai độ dài trước khi gửi ngân hàng. Cảnh báo khi vượt 2% yêu cầu nhập tài khoản trong ngày. | Kiểm tra độ dài theo ngân hàng, chỉ rõ trường cần sửa và yêu cầu xác nhận lại. | Chủ sản phẩm hoàn phí |
+| 7 | Hệ thống | Mỗi giờ nối thông báo đã hoàn với giao dịch sổ cái theo yêu cầu. Báo động ngay từ 1 thông báo thiếu giao dịch thành công. | Chỉ gửi xác nhận sau khi sổ cái ghi thành công. Lỗi 503 chuyển trạng thái chờ đối soát. | Kỹ sư trưởng tích hợp |
+| 18 | Ngữ cảnh | Hằng tuần đếm ca mở lại vì số tiền trong các ca đã xác minh tính đúng. Rà mẫu tin nếu có từ 3 ca/tuần. | Ghi phí ban đầu, tỉ lệ áp dụng và số hoàn trên cùng thông báo. | Trưởng nhóm CSKH |
+| 19 | Giới hạn hệ thống | Mỗi ngày kiểm mọi yêu cầu quá 12 tháng. Báo khi có ít nhất 1 ca thiếu bản ghi chuyển người xử lý. | Nêu giới hạn tra cứu và chuyển mã đơn, thời điểm, lý do cho nhân viên có quyền tra kho lưu trữ. | Trưởng vận hành CSKH |
+| 17 | Ngầm | Đối soát 100 đơn dưới 2 kg mỗi tuần với bảng giá có hiệu lực tại ngày xử lý. Điều tra ngay từ 1 ca lệch. | Ghi phiên bản bảng giá vào trace, vô hiệu bộ nhớ đệm khi đổi giá và đối soát lại các đơn bị ảnh hưởng. | Kế toán trưởng |
