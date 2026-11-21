@@ -8,7 +8,7 @@
 | 2 · Ba yếu tố nhạy nhất | Làm lại ×2 tăng 51,8%, xem lại ×2 tăng 40,7%, lương +25% tăng 23,1% (simulated). | Giả lập | Trưởng bộ phận tài chính |
 | 3 · So với tự làm | Toàn mẫu ba lượt, gồm nhân viên tiếp quản, tốn 5.865 đ/yêu cầu so với 12.000 đ (simulated, trước cố định). Trong phạm vi pilot, CPS gồm cố định là 4.599 đ ở 45.000 yêu cầu toàn mạng/tháng (simulated). | Giả lập | Trưởng bộ phận tài chính |
 | 4 · Kết quả, sử dụng, an toàn | Trong đợt chạy thử, 994/1.200 ca đóng đúng hạn và giữ đóng (82,83%), 48/177 gợi ý đã xem bị sửa hoặc bỏ (27,12%), 51/1.200 ca mở lại (4,25%). | Xong, có bằng chứng | Trưởng nhóm CSKH |
-| 5 · Lỗi và khắc phục | Có phương án phát hiện và xử lý cho 5 loại. Hai cột của bản ghép dùng nhãn AI cho 20 ca. Chờ Duy và Hiệp xác nhận cột của mình. | Chưa | Trưởng đảm bảo chất lượng |
+| 5 · Lỗi và khắc phục | Có phương án phát hiện và xử lý cho 5 loại. Hai cột đã gộp trùng 20/20 ca và dùng chung nhãn AI. | Thiếu bằng chứng gắn nhãn độc lập | Trưởng đảm bảo chất lượng |
 | 6 · Pilot | 20 người mỗi nhánh × 299 ca = 5.980 ca/nhánh, tương đương 859 ca độc lập. Đủ lực cho 6 điểm, power chỉ 0,642 nếu tăng thật 5 điểm. | Xong, có bằng chứng | Giám đốc vận hành |
 | 7 · Rủi ro kinh tế | Xem lại 100% trong phạm vi đưa CPS lên 11.743–12.415 đ (simulated), có thể vượt mốc tự làm. Đo phút thật và đối soát trước khi giảm tỉ lệ xem lại. | Giả lập | Trưởng nhóm CSKH |
 

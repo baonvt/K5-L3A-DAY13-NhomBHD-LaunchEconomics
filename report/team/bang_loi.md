@@ -2,7 +2,7 @@
 
 ## Nhãn cho 20 ca
 
-Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex điền nhãn cho cả hai patch dựa trên mô tả từng ca và bảng nhãn tham khảo của lab. Mỗi người có thể sửa cột mình trước khi commit. [Đề gốc](../../docs/Ngay13_Lab13_De_bai_hoc_vien.docx) · [Nhãn tham khảo](../../docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md#nhãn-tham-khảo-cho-20-ca)
+Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Cả hai cột xuất phát từ nhãn Codex điền dựa trên mô tả từng ca và bảng nhãn tham khảo của lab. [Đề gốc](../../docs/Ngay13_Lab13_De_bai_hoc_vien.docx) · [Nhãn tham khảo](../../docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md#nhãn-tham-khảo-cho-20-ca)
 
 <table>
 <thead><tr><th>Ca</th><th>Tình huống</th><th>Nhãn Duy</th><th>Nhãn Hiệp</th></tr></thead>
@@ -210,7 +210,7 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Codex 
 </tbody>
 </table>
 
-Hai cột trong bản ghép của hai patch trùng 20/20 ca (100%). Mức trùng này tính trên các nhãn cùng nguồn AI. Nếu đổi nhãn trước khi commit, nhóm cập nhật số ca trùng và ghi lý do cho từng ca khác nhau.
+Hai cột sau khi gộp commit trùng 20/20 ca (100%). Kết quả này đối chiếu các nhãn có cùng nguồn. Hồ sơ còn thiếu bằng chứng hai thành viên đã gắn nhãn độc lập trước khi so sánh theo yêu cầu Nhiệm vụ C.
 
 ## Khắc phục 5 ca, mỗi loại một ca
 

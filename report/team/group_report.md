@@ -13,7 +13,7 @@ K5–L3A · Nguyễn Võ Thái Bảo, Nguyễn Trường Duy, Đoàn Văn Hiệp
 | Nhiệm vụ | Cách làm và hồ sơ |
 | --- | --- |
 | A–B | Tái tính bốn khoản chi phí, tách bốn loại yêu cầu, đổi từng giả định và tính cả phần nhân viên làm thay. [Bảng chi phí](bang_chi_phi.md) |
-| C | Codex điền 20 ca theo năm loại lỗi. Duy và Hiệp mỗi người nhận một cột để rà soát và commit. [Bảng lỗi](bang_loi.md) |
+| C | Duy và Hiệp đã commit riêng hai cột nhãn cho 20 ca. Hai cột dùng chung nhãn do Codex soạn theo tài liệu lab. [Bảng lỗi](bang_loi.md) |
 | D | Chia ngẫu nhiên theo nhân viên trong 12 depot, cân bằng 20 người mỗi nhánh. [Kế hoạch pilot](pilot_plan.yaml) |
 | E | Đăng ký chỉ số, sơ đồ event, luật dừng và điều kiện ra quyết định. [Chỉ số](chi_so.md) · [Hồ sơ Gate 2a](ho_so_launch_v0.md) |
 
