@@ -210,7 +210,9 @@ Duy phụ trách cột thứ nhất, Hiệp phụ trách cột thứ hai. Cả h
 </tbody>
 </table>
 
-Hai cột sau khi gộp commit trùng 20/20 ca (100%). Kết quả này đối chiếu các nhãn có cùng nguồn. Hồ sơ còn thiếu bằng chứng hai thành viên đã gắn nhãn độc lập trước khi so sánh theo yêu cầu Nhiệm vụ C.
+Hai cột sau khi gộp commit trùng 20/20 ca (100%). Mỗi cột khớp 20/20 ca với bảng tham khảo. Tỉ lệ đồng thuận giữa hai lượt gắn nhãn độc lập theo Nhiệm vụ C chưa có dữ liệu để tính.
+
+Khi phân loại ca khó, xét nguyên nhân gốc. Ca 18 thuộc ngữ cảnh vì số tiền tính đúng, còn thông báo thiếu diễn giải. Ca 7 thuộc hệ thống vì có thông báo hoàn sai khi sổ cái lỗi. Ca 17 thuộc lỗi ngầm vì sai lệch chỉ lộ ra khi đối soát mẫu.
 
 ## Khắc phục 5 ca, mỗi loại một ca
 

@@ -1,6 +1,6 @@
 # Nhóm BHD · Lab 13
 
-Lớp K5–L3A. Bài nộp dùng nhánh `main`. Phần A–B và cột nhãn của Duy nằm trong commit `380f767`. Phần D–E và cột nhãn của Hiệp nằm trong commit `dab82df`. [Repo nhóm](https://github.com/baonvt/K5-L3A-DAY13-NhomBHD-LaunchEconomics)
+Lớp K5–L3A. Bài nộp dùng nhánh `main`. Bảo viết mô hình A–B trong `0da18d4`. Duy bàn giao bảng chi phí, cột nhãn và bảng khắc phục trong `380f767`. Hiệp bàn giao D–E và cột nhãn trong `dab82df`. [Repo nhóm](https://github.com/baonvt/K5-L3A-DAY13-NhomBHD-LaunchEconomics)
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trong lab |
 | --: | --- | --- | --- | --- | --- |
@@ -14,6 +14,6 @@ Lớp K5–L3A. Bài nộp dùng nhánh `main`. Phần A–B và cột nhãn c�
 | --- | --- | --- |
 | Bảo | Mô hình chi phí, độ nhạy, báo cáo nhóm và phiếu hội đồng. [Báo cáo Bảo](report/team/2A202603638_NguyenVoThaiBao.md) | Chạy A1 và đối chiếu kết quả sau khi gộp. |
 | Duy | Bảng A1–B4, phiếu đối chiếu 20 ca và bảng khắc phục. [Báo cáo Duy](report/team/2A202603589_NguyenTruongDuy.md) | Tính tay B3, kiểm tra và commit 20 ô trong cột Duy. |
-| Hiệp | Phép tính D1, E1, kế hoạch pilot, event, hồ sơ Gate 2a. [Báo cáo Hiệp](report/team/2A202603565_DoanVanHiep.md) | Đối chiếu cỡ mẫu và kiểm tra và commit 20 ô trong cột Hiệp. |
+| Hiệp | Phép tính D1, E1, kế hoạch pilot, event, hồ sơ Gate 2a. [Báo cáo Hiệp](report/team/2A202603565_DoanVanHiep.md) | Đối chiếu cỡ mẫu và kiểm tra 20 ô trong cột Hiệp. |
 
-Codex hỗ trợ soạn mã và bản nháp theo phân công. Duy và Hiệp rà soát phần tương ứng, ghi kết quả tự kiểm và tự commit. Codex điền sẵn cả hai cột theo nhãn tham khảo của lab. Phần tự đánh giá và ý kiến hội đồng do người tham gia ghi.
+Codex hỗ trợ soạn và soát mã, kiểm lại số và cập nhật tài liệu. Báo cáo Duy nêu phép kiểm tay B3. Báo cáo Hiệp ghi cách đối chiếu cỡ mẫu và rà nhãn. Cả hai cột xuất phát từ nhãn Codex điền theo bảng tham khảo của lab.

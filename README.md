@@ -4,6 +4,8 @@ AI20K K5, ngày 13 (Launch & Economics), buổi chiều. Mỗi nhóm dựng mộ
 
 **Loại bài:** Nhóm 4 người · **Thời lượng:** 4 giờ tại lớp (14:00–18:00) · **Deadline:** lớp sáng và lớp chiều đều nộp trước 23h59 GMT+7 ngày lab ([SUBMISSION.md](SUBMISSION.md#deadline-gmt7)). Hồ sơ phải sẵn sàng lúc 17:00 để duyệt chéo tại lớp.
 
+**Nhóm BHD · K5–L3A.** Xem [hồ sơ Gate 2a](report/team/ho_so_launch_v0.md), [báo cáo nhóm](report/team/group_report.md) và [phân công thành viên](TEAM.md).
+
 ## Mục tiêu học tập
 
 Bộ hồ sơ phải trả lời bốn câu hỏi:
@@ -44,7 +46,7 @@ python3 -m venv .venv
 source .venv/bin/activate            # Windows PowerShell: .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python -c "import pandas, numpy, scipy, statsmodels; print('san sang')"
-python lab13.py                      # báo NotImplementedError cho tới khi viết xong các hàm
+python -X utf8 lab13.py               # in ba phép thử A1 và các bảng A–B, D1, E1
 ```
 
 Cài đặt theo từng hệ điều hành và cách đọc dữ liệu đúng: [src/README.md](src/README.md).
@@ -75,7 +77,7 @@ Trong lúc làm: [docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md](docs/Lab13_Huong_
 | `TEAM.md` | Thông tin nhóm, thành viên, vai và đóng góp |
 | `src/` | Bài làm `lab13.py` (học viên viết vào đây), bản gốc `lab13_starter.py`, hai file CSV, `requirements.txt` |
 | `docs/` | Dữ liệu và công thức, hướng dẫn chi tiết, đề bài gốc (docx), slide |
-| `report/team/` | Mẫu các file hồ sơ nhóm phải nộp và báo cáo từng thành viên |
+| `report/team/` | Hồ sơ nhóm, báo cáo từng thành viên và mẫu báo cáo cá nhân |
 
 ## Báo cáo phải nộp
 

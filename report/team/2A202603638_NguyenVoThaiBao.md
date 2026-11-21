@@ -10,7 +10,7 @@ Phần A–B trong `src/lab13.py`, tích hợp hồ sơ của Duy và Hiệp và
 
 ## 3. Đóng góp cụ thể
 
-Mô hình tính tiền token và tool trên mọi lượt chạy. Khi hạ giới hạn lượt, mô hình giữ chi phí các lượt đã chạy, chuyển yêu cầu còn dang dở cho nhân viên và tính riêng chi phí làm thay.
+Mô hình trong commit `0da18d4` tính tiền token và tool trên mọi lượt chạy. Khi hạ giới hạn lượt, mô hình giữ chi phí các lượt đã chạy, chuyển yêu cầu còn dang dở cho nhân viên và tính riêng chi phí làm thay.
 
 ## 4. Bằng chứng
 
@@ -22,4 +22,6 @@ Codex hỗ trợ viết, chạy mô hình và soạn patch. Cách kiểm tay B3 
 
 ## 6. Tự đánh giá
 
-Bảo bổ sung nhận xét cá nhân sau khi tự chạy lại mô hình và gộp hai phần bàn giao.
+Đối chiếu do Codex thực hiện sau khi gộp: ba phép A1 đạt. Giới hạn 1 lượt giảm CPS xuống 4.111 đ nhưng để lại 319 ca. Giới hạn 2 lượt còn 234 ca và cho tổng chi phí hệ thống thấp nhất, 6.901.220 đ (các số chi phí là simulated).
+
+Nhận xét cá nhân của Bảo chờ xác nhận.

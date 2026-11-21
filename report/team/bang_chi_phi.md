@@ -14,11 +14,11 @@ Mẫu gồm 1.200 yêu cầu và 1.624 lượt chạy. CPS là chi phí của tr
 
 | Khoản | Kết quả | Căn cứ |
 | --- | ---: | --- |
-| Token | 245.585 đ | Token vào × 26 và token ra × 130, chia 1.000 |
-| Tool | 84.000 đ | 5.600 lượt gọi × 15 đ |
+| Token | 245.585 đ | (Token vào × 26 + token ra × 130) / 1.000, từ `logix_runs.csv` |
+| Tool | 84.000 đ | 5.600 lượt gọi × 15 đ, từ `logix_runs.csv` |
 | Trong đó, token và tool ở lượt 2–3 | 93.804 đ | Tổng trên các dòng có `attempt > 1`, đã nằm trong hai khoản trên |
-| Xem lại | 1.780.000 đ | 890 phút × 2.000 đ, simulated |
-| Làm lại | 2.264.000 đ | 1.132 phút × 2.000 đ, simulated |
+| Xem lại | 1.780.000 đ | 890 phút × 2.000 đ (simulated), từ `phut_xem_lai_simulated` |
+| Làm lại | 2.264.000 đ | 1.132 phút × 2.000 đ (simulated), từ `phut_lam_lai_simulated` |
 | Tổng chi phí trợ lý | 4.373.585 đ | Token + tool + xem lại + làm lại, simulated |
 | Việc thành công | 978 | Yêu cầu có `ket_qua = thanh_cong` |
 | CPS | 4.472 đ | Tổng / 978, simulated |
@@ -35,7 +35,9 @@ CPS bằng **16,28 lần** hóa đơn trên một yêu cầu (simulated). Làm l
 | quoc_te | 150 | 27,33% | 2,32 | 22.515 đ | 1,88× |
 | doi_tac | 68 | 54,41% | 1,88 | 10.215 đ | 0,85× |
 
-Quốc tế tốn 22.515 đ/việc (simulated). Trong những lượt còn phải chạy, tỉ lệ trả về `ok` lần lượt là 30,00%, 11,43% và 2,15%. Pilot ưu tiên nội địa và hàng nặng. Đối tác chỉ hoàn thành 54,41% và cần xử lý điều khoản riêng.
+Quốc tế chỉ hoàn thành 27,33% dù chạy trung bình 2,32 lượt/yêu cầu. Tính bằng `mo_hinh` riêng cho quốc tế, giới hạn 2 hay 3 lượt đều đạt 41/150 ca, trong khi CPS tăng từ 20.605 lên 22.515 đ (simulated). Tỉ lệ `ok` trong các lượt 1, 2 và 3 lần lượt là 30,00%, 11,43% và 2,15%.
+
+Pilot ưu tiên nội địa và hàng nặng. Đối tác chỉ hoàn thành 54,41% và cần xử lý điều khoản riêng.
 
 ## A4 · Phân bổ 40 triệu đ cố định mỗi tháng
 
@@ -93,4 +95,4 @@ Trong 982 yêu cầu, 948 ca có ít nhất một lượt `ok`, 48 ca làm lại
 
 Ví dụ hàng đầu bằng (224.513 + 948 × 5 × 2.000 + 48 × 9 × 2.000) / 900. Cộng 82 ca × 12.000 đ theo B3 rồi chia 982, hai kịch bản lần lượt tốn 11.764 và 12.380 đ/yêu cầu (simulated, chưa cộng cố định).
 
-Pilot cần đo phút thực tế và mức xem lại có thể giảm an toàn. Chỉ riêng việc đổi giả định làm lại từ 9 lên 15,3 phút đã đưa CPS qua mốc 12.000 đ (simulated).
+Theo lưu lượng A4, có 45.000 × 982/1.200 = 36.825 yêu cầu/tháng trong phạm vi. Phân bổ thêm 40 triệu / 36.825 yêu cầu, chi phí toàn hệ thống lần lượt là **12.850 và 13.466 đ/yêu cầu** (simulated), đều trên mốc tự làm 12.000 đ/yêu cầu. Pilot cần đo phút thực tế và kiểm tra mức xem lại có thể giảm an toàn.

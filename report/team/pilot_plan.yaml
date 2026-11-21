@@ -42,15 +42,15 @@ pilot:
     spillover_risk: "Nhân viên cùng depot có thể chia sẻ cách xử lý. Chặn mở trợ lý với tài khoản đối chứng, đối soát event theo staff_id và ghi sự cố chia sẻ."
     predeclared: "Khóa kế hoạch trước 30/11/2026. So chênh lệch tỉ lệ giữa hai nhánh theo phân công ban đầu, tính khoảng tin cậy 95% có xét cụm nhân viên và phân tầng depot."
   stop_rules:
-    - "NẾU tỉ lệ mở lại của can thiệp vượt 6% hoặc cao hơn đối chứng từ 2 điểm phần trăm TRONG 1 cửa sổ 7 ngày đã đủ theo dõi, tối thiểu 100 yêu cầu mỗi nhánh, THÌ Giám đốc vận hành tắt trợ lý trong 30 phút KHÔNG THÌ giữ bậc hiện tại đến khi đủ mẫu và qua các kiểm tra vận hành."
+    - "NẾU tỉ lệ mở lại của can thiệp vượt 6% hoặc cao hơn đối chứng từ 2 điểm phần trăm TRONG cùng một lứa tuyển 7 ngày có ít nhất 100 yêu cầu mỗi nhánh đã đủ 7 ngày theo dõi kể từ lần đóng đầu THÌ Giám đốc vận hành tắt trợ lý trong 30 phút KHÔNG THÌ giữ bậc hiện tại đến khi đủ mẫu và qua các kiểm tra vận hành."
     - "NẾU phát hiện từ 1 lần hoàn trùng hoặc báo đã hoàn khi sổ cái chưa ghi thành công TRONG bất kỳ lần đối soát nào THÌ Kỹ sư trưởng khóa ngay luồng ghi hoàn và gọi Giám đốc vận hành để quay về xử lý tay KHÔNG THÌ tiếp tục đối soát hằng giờ, chưa được bỏ khóa chống trùng."
     - "NẾU biến phí đo thực trên việc thành công vượt 12.000 đ hoặc không có việc thành công dù có chi phí TRONG 2 tuần liên tiếp THÌ Giám đốc vận hành dừng tuyển ca và yêu cầu PM rà soát phút xem lại, làm lại KHÔNG THÌ tiếp tục theo dõi và cấm mở rộng ngoài phạm vi."
     - "NẾU số quyết định sửa hoặc bỏ vượt 40% số ca đã xem TRONG 1 tuần có từ 30 quyết định THÌ Trưởng nhóm CSKH giữ bậc, kiểm 20 trace và huấn luyện trước khi mở lại KHÔNG THÌ duy trì giám sát, chưa tăng bậc nếu thiếu quyết định hoặc chưa qua kiểm tra an toàn."
   interim_looks: "Chỉ kiểm tra an toàn giữa kỳ. Chi phí và sử dụng là điều kiện vận hành. Khóa kết quả chỉ số chính đến ngày quyết định."
   rollback: "Giám đốc vận hành tắt cờ trong 30 phút. Chuyển ca mới và ca đang mở cho nhân viên cùng lịch sử. Kế toán đối soát mọi lệnh đang chờ trước khi cho phép xử lý tiền tiếp."
   decision_date: "2027-01-19"
-  decision_rule: "Ngày 19/01 so hai nhánh sau khi ca cuối đã có 24 giờ để đóng và 7 ngày theo dõi tiếp. Chỉ đề nghị mở rộng nếu đủ 299 ca/người, mức tăng quan sát ít nhất 5 điểm, cận dưới khoảng tin cậy 95% lớn hơn 0 và qua các luật dừng. Thiếu mẫu hoặc thiếu thời gian theo dõi thì ghi chưa đủ bằng chứng."
+  decision_rule: "Ngày 19/01 so hai nhánh sau khi ca cuối đã có 24 giờ để đóng và 7 ngày theo dõi chỉ số chính. Báo số ca chưa đủ theo dõi an toàn theo từng nhánh. Chỉ đề nghị mở rộng nếu đủ 299 ca/người, mức tăng quan sát ít nhất 5 điểm, cận dưới khoảng tin cậy 95% lớn hơn 0, đạt kiểm tra an toàn và chi phí toàn hệ thống theo phút thực và lưu lượng dự kiến không vượt 12.000 đ/yêu cầu. Thiếu mẫu hoặc thời gian theo dõi thì ghi chưa đủ bằng chứng."
   simulated_inputs:
     - "phut_xem_lai_simulated và phut_lam_lai_simulated dùng định giá quá khứ. Từ ngày đầu ghi phút thực, đối chiếu sau tuần 1."
     - "CPS toàn mẫu 4.472 đ, trong phạm vi 3.414 đ (simulated, chưa cộng cố định)."
-    - "B4 xem lại 5 phút cho mỗi câu trả lời, làm lại 9 hoặc 15,3 phút/ca, cho CPS 11.743 hoặc 12.415 đ (simulated)."
+    - "B4 xem lại 5 phút cho mỗi câu trả lời, làm lại 9 hoặc 15,3 phút/ca, cho CPS 11.743 hoặc 12.415 đ (simulated). Tính thêm ca thủ công và cố định ở lưu lượng A4 cho 12.850 hoặc 13.466 đ/yêu cầu (simulated)."

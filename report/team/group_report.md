@@ -20,8 +20,9 @@ K5–L3A · Nguyễn Võ Thái Bảo, Nguyễn Trường Duy, Đoàn Văn Hiệp
 ## 4. Kết quả
 
 - Trợ lý hoàn thành 978/1.200 yêu cầu với 4.472 đ/việc (simulated). Nếu cộng 222 ca nhân viên làm thay, cả hệ thống tốn 5.865 đ/yêu cầu ở giới hạn ba lượt (simulated).
-- Nội địa và hàng nặng đóng được 900/982 ca. Xem lại 100% có thể đẩy biến phí lên 12.415 đ/việc (simulated), vượt mốc nhân viên tự làm 12.000 đ.
-- Kết quả duyệt chéo nhóm nhận được còn chờ hội đồng. Phiếu BHD dùng để chấm nhóm khác nằm riêng trong [phiếu chấm](phieu_cham.md).
+- Nội địa và hàng nặng hoàn thành 900/982 ca. Khi xem lại 100%, tổng chi phí gồm ca thủ công và cố định là 12.850–13.466 đ/yêu cầu (simulated) theo lưu lượng A4, vượt mốc tự làm 12.000 đ/yêu cầu.
+- Codex đã chạy `python -X utf8 lab13.py` trong `src/` ở môi trường hiện tại và đối chiếu ba phép A1, bảng A–B, D1 và E1. YAML đọc được bằng `yaml.safe_load` và có bốn luật dừng. Kiểm tra trên máy thành viên khác còn chờ xác nhận.
+- Hồ sơ còn thiếu hai bản nhãn lập độc lập trước khi so sánh và kết quả duyệt chéo mà BHD nhận. Phiếu để BHD chấm nhóm được phân công còn chờ hồ sơ của nhóm đó. [Bảng lỗi](bang_loi.md) · [Phiếu chấm](phieu_cham.md)
 
 ## 5. Khó khăn và cách xử lý
 
